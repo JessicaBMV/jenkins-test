@@ -11,14 +11,6 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                script {
-                    // Add your test commands here if needed
-                }
-            }
-        }
-
         stage('Deploy') {
             steps {
                 script {
