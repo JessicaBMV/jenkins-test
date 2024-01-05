@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    
+    tools {
+        nodejs 'nodejs-14' // 'nodejs-14' is the Node.js installation label/version
+    }
 
     stages {
         stage('Build') {
